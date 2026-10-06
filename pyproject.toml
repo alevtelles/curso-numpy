@@ -1,0 +1,18 @@
+[project]
+name = "numpy-notes"
+version = "0.1.0"
+description = "Código dos capítulos do livro Curso Numpy"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.0"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+ecossistema = [
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "scikit-learn>=1.5",
+]
+
+[tool.uv]
+package = false
