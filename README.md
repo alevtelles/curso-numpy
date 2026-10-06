@@ -1,5 +1,7 @@
 # Curso Numpy: código dos capítulos
 
+![Imagem do Curso Numpy](Numpy.png)
+
 Repositório de código do livro **Curso Numpy**: do primeiro array à rede neural, em português.
 Cada capítulo tem um arquivo `.py` executável, na mesma ordem em que o código aparece no livro.
 O livro em HTML está em `docs/numpy-notes.html`.
